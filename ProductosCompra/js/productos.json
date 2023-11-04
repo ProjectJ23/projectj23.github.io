@@ -1,0 +1,102 @@
+[
+    {
+        "id": "Anillo-01",
+        "titulo": "Rustico ruleman",
+        "imagen": "./img/anillos/01.jpg",
+        "categoria": {
+            "nombre": "Anillos",
+            "id": "anillos"
+        },
+        "precio": 3000
+    },
+    {
+        "id": "anillo-02",
+        "titulo": "Esmalte plateado",
+        "imagen": "./img/anillos/02.jpg",
+        "categoria": {
+            "nombre": "Anillos",
+            "id": "anillos"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "pulcera-01",
+        "titulo": "Pulcera Rustica",
+        "imagen": "./img/pulceras/01.jpg",
+        "categoria": {
+            "nombre": "Pulcera",
+            "id": "pulceras"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "pulcera-02",
+        "titulo": "Fuego interno",
+        "imagen": "./img/pulceras/02.jpg",
+        "categoria": {
+            "nombre": "Pulcera",
+            "id": "pulceras"
+        },
+        "precio": 1900
+    },
+    {
+        "id": "pulcera-03",
+        "titulo": "Egipcia",
+        "imagen": "./img/pulceras/03.jpg",
+        "categoria": {
+            "nombre": "Pulcera",
+            "id": "pulceras"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "pulcera-04",
+        "titulo": "Dragón azul",
+        "imagen": "./img/pulceras/04.jpg",
+        "categoria": {
+            "nombre": "Pulcera",
+            "id": "pulceras"
+        },
+        "precio": 4500
+    },
+    {
+        "id": "pendiente-01",
+        "titulo": "Cleopatra",
+        "imagen": "./img/pendientes/01.jpg",
+        "categoria": {
+            "nombre": "Pendientes",
+            "id": "pendientes"
+        },
+        "precio": 4000
+    },
+    {
+        "id": "pendiente-02",
+        "titulo": "Robotizado",
+        "imagen": "./img/pendientes/02.jpg",
+        "categoria": {
+            "nombre": "Pendientes",
+            "id": "pendientes"
+        },
+        "precio": 2500
+    },
+    {
+        "id": "pendiente-03",
+        "titulo": "Nitro rojo",
+        "imagen": "./img/pendientes/03.jpg",
+        "categoria": {
+            "nombre": "Pendientes",
+            "id": "pendientes"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "pendiente-04",
+        "titulo": "Pendiente simple",
+        "imagen": "./img/pendientes/04.jpg",
+        "categoria": {
+            "nombre": "Pendientes",
+            "id": "pendientes"
+        },
+        "precio": 1200
+    }
+]
