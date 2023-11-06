@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <LINK REL=StyleSheet HREF="styles.css" TYPE="text/css" MEDIA=screen>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+     <!-- Mis Estilos -->
+     <link rel="stylesheet" href="../css/estilos.css">
+  </head>
+
+  <body>
+    <div class="hm-wrapper">
+
+      <!-- =================================
+         HEADER MENU
+      ================================== -->
+      <div class="hm-header">
+          <div class="container">
+              <div class="header-menu">
+
+                  <div class="hm-logo">
+                      <a href="#">
+                          <a href="../"><img src="../img/ProjectJ_Logo.svg" alt=""></a>
+                      </a>
+                  </div>
+
+                  <nav class="hm-menu">
+                      <ul>
+                          <li><a href="../ProductosCompra/index.html">Productos</a></li>
+                          <li><a href="../Index/Contacto.html">Contacto</a></li>
+                          <li><a href="../Index/Nosotros.html">Nosotros</a></li>
+                          <li>Estadísticas</li>
+                      </ul>
+
+                      <div class="icon-menu">
+                          <button type="button"><i class="fas fa-bars"></i></button>
+                      </div>
+
+                  </nav>
+
+              </div>
+          </div>
+
+      </div>
+
+      <!-- =================================
+         HEADER MENU Movil
+      ================================== -->
+      <div class="header-menu-movil">
+          <button class="cerrar-menu"><i class="fas fa-times"></i></button>
+          <ul>
+              <li><a href="../ProductosCompra/index.html">Productos</a></li>
+              <li><a href="#">Campañas</a></li>
+              <li><a href="#">Nosotros</a></li>
+              <li>Estadísticas</li>
+
+          </ul>
+      </div>
+      
+      <h1 align="center">Venta de Productos</h1>
+    <div class="chart">
+    <div class="product-ref">
+      <div class="ring-ref" style="background-color: red;"><legend>Anillo</legend></div>
+      <div class="necklace-ref" style="background-color: blue;"><legend>Collar</legend></div>
+      <div class="bracelet-ref" style="background-color: green;"><legend>Pulsera</legend></div>
+
+    </div>
+
+
+
+
+    <canvas id="myChart" style="width:500px;max-width:2048px;max-height:1080;"></canvas>
+
+
+
+
+    <script>
+    const xValues = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre"];
+
+
+    new Chart("myChart", {
+      type: "line",
+      data: {
+        labels: xValues,
+        datasets: [{ 
+          data: [15,13,5,1,15,30,30,45,25,45,50],
+          borderColor: "red",
+          fill: false
+        }, { 
+          data: [10,12,9,18,5,6,1,0,22,12,10],
+          borderColor: "green",
+          fill: false
+        }, { 
+          data: [20,30,27,21,8,23,16,11,21,14,4],
+          borderColor: "blue",
+          fill: false
+        }]
+      },
+      options: {
+        legend: {display: false}
+      }
+    });
+    </script>
+    </div>
+  </body>
