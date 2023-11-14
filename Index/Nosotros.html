@@ -22,6 +22,9 @@
     <!-- Mis Estilos -->
     <link rel="stylesheet" href="/css/estilos.css">
 
+    <!-- Gráficos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
 </head>
 <body>
 
@@ -111,6 +114,57 @@
                     <img src="/img/mision.png" class="knowledge__img">
                 </figure>
             </div>
+        </section>
+
+        <section id="pro-joyas">
+            <div class="container">
+            <h2>Estadísticas</h2>
+            <h3 align="center" style="margin-top: 1em; margin-bottom: 1em;">Venta de Productos por Mes</h3>
+            <div class="chart">
+            <div class="product-ref">
+            <div class="ring-ref" style="background-color: red;"><legend>Anillo</legend></div>
+            <div class="necklace-ref" style="background-color: blue;"><legend>Collar</legend></div>
+            <div class="bracelet-ref" style="background-color: green;"><legend>Pulsera</legend></div>
+
+            </div>
+
+
+
+
+            <canvas id="myChart" style="width:500px;max-width:2048px;max-height:1080;"></canvas>
+
+
+
+
+            <script>
+            const xValues = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre"];
+
+
+            new Chart("myChart", {
+            type: "line",
+            data: {
+                labels: xValues,
+                datasets: [{ 
+                data: [15,13,5,1,15,30,30,45,25,45,50],
+                borderColor: "red",
+                fill: false
+                }, { 
+                data: [10,12,9,18,5,6,1,0,22,12,10],
+                borderColor: "green",
+                fill: false
+                }, { 
+                data: [20,30,27,21,8,23,16,11,21,14,4],
+                borderColor: "blue",
+                fill: false
+                }]
+            },
+            options: {
+                legend: {display: false}
+            }
+            });
+            </script>
+            </div>
+                    </div>
         </section>
 
         

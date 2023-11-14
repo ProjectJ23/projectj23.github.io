@@ -643,3 +643,34 @@ footer .foo-row .foo-col ul li a:hover{
 
 
 }
+
+#myChart{
+    align-items: center;
+    display: flex;
+}
+
+.chart{
+   
+  
+}
+
+.product-ref {
+    display: flex;
+    justify-content: space-evenly;
+
+    gap:"10px",
+    
+    
+}
+
+
+
+.ring-ref, .bracelet-ref, .necklace-ref {
+ width: 2.5em;
+ height: 1em;
+ border:solid 1px black ;
+}
+.ring-ref legend, .bracelet-ref legend, .necklace-ref legend{
+ margin-top: -2px;
+ margin-left: 43px;
+}
