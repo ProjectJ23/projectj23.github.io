@@ -28,6 +28,7 @@ body{
 .hm-wrapper, body{
     min-height: 100%;
 }
+hm-menu
 
 a{
     text-decoration: none;
@@ -149,6 +150,14 @@ img{
 .hm-menu{
     display: flex;
     position: relative;
+}
+.hm-menu a{
+    text-decoration:none;
+}
+
+.account{
+    font-size: 1.9em;
+    color: #2C2B2B;
 }
 
 .hm-menu ul{

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Cargar Producto</title>
+   <script src="https://kit.fontawesome.com/8651c732c8.js" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/account/cargar-producto/cargar-producto.css">
+</head>
+</head>
+<body>
+   <button onclick="location.href='/account/account.html'" class="back-button"><i class="fa-solid fa-arrow-left"></i> Volver</button>
+   
+   <form>
+       <label for="titulo">Título</label><br>
+       <input type="text" id="titulo" name="titulo" placeholder="Enter title" required><br>
+
+       <label for="imagen">Imagen</label><br>
+       <input type="text" id="imagen" name="imagen" placeholder="Enter img" required><br>
+     
+       <label for="categoriaId">ID de la categoría</label><br>
+       <input type="number" id="categoriaId" name="categoriaId" placeholder="Enter id category" required><br>
+
+       <label for="precio">Precio</label><br>
+       <input type="number" id="precio" name="precio" placeholder="Enter price" required><br>
+
+       <input type="submit" value="Enviar">
+   </form>
+   <script src="cargar-producto.js"></script>
+</body>
+
+</html>

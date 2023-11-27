@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <div class="background"></div>
+    
+    <form class="container" method="post">
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Introduzca su email" name="username" id="username" required>
+      <label><b>Contraseña</b></label>
+      <input type="password" placeholder="Introduzca la Contraseña" name="password" id="password"   required>
+      <label><b>Confirmar Contraseña</b></label>
+      <input type="password" placeholder="Repita la Contraseña" name="confirm_password" id="confirm_password"   required>
+      <label for="">¿Ya tiene cuenta? </label>
+      <button class="toRegister"   onclick="location.href='/login-register/login/login.html'">Iniciar Sesion</button>
+      <button type="submit" class="login">Registrarse</button>
+    
+    </form>
+    <script src="script.js"></script>    
+</body>
+    </html>
