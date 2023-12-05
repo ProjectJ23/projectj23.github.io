@@ -213,7 +213,7 @@ img{
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-
+    text-align: center;
 }
 
 .hm-banner a{
@@ -529,9 +529,6 @@ footer .foo-row .foo-col ul li a:hover{
     }
 }
 
-.img-banner{
-    margin-top: 2em;
-}
 .hm-header .icon-menu{
     display: none;
 }
