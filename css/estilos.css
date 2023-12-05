@@ -209,6 +209,11 @@ img{
     height: 600px;
     min-height: 600px;
     overflow: hidden;
+    background-image: url("../img/thumb-1920-433550.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 
 .hm-banner a{
@@ -226,6 +231,9 @@ img{
     height: 100%;
 }
 
+.img-banner{
+  margin-top: 8.5em;
+}
 
 /*=================================
     ESTILOS: categorias home
@@ -521,6 +529,9 @@ footer .foo-row .foo-col ul li a:hover{
     }
 }
 
+.img-banner{
+    margin-top: 2em;
+}
 .hm-header .icon-menu{
     display: none;
 }
